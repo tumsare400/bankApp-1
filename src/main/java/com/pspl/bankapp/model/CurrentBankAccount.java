@@ -29,7 +29,7 @@ public class CurrentBankAccount extends BankAccount {
 		if(temp>=0) {
 			setBalance(temp);
 		}
-		else if((-1*temp) <= debitLimit && (-1*temp) <= (debitLimit - amountBorrowed) ) {
+		else if((-1*temp) <= debitLimit ) {
 			setBalance(0);
 			amountBorrowed += (-1)*temp;
 		}
