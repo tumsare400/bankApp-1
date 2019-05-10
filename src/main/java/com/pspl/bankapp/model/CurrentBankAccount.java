@@ -13,7 +13,7 @@ public class CurrentBankAccount extends BankAccount {
 
 	public CurrentBankAccount(String accHolderName, String accType, double balance) {
 		super(accHolderName, accType, balance);
-		this.debitLimit = 0.10 * balance;
+		this.debitLimit = 0.11 * balance;
 	}	
 	
 	public double getDebitLimit() {
